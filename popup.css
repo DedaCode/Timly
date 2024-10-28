@@ -1,0 +1,90 @@
+body {
+  width: 300px;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.timer-display {
+  font-size: 48px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.status {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #666;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+#pause {
+  background-color: #f44336;
+}
+
+#pause:hover {
+  background-color: #da190b;
+}
+
+#reset {
+  background-color: #2196F3;
+}
+
+#reset:hover {
+  background-color: #0b7dda;
+}
+
+.settings {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.settings label {
+  display: block;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.settings input {
+  width: 60px;
+  margin-left: 10px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#saveSettings {
+  margin-top: 10px;
+  background-color: #ff9800;
+}
+
+#saveSettings:hover {
+  background-color: #f57c00;
+}
